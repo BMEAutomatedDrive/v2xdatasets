@@ -1,4 +1,4 @@
-# PKI V2X measurement on M0 motorway 
+# V2X measurement on M0 motorway 
 
 V2X data collection under real world conditions.
 
