@@ -34,3 +34,6 @@ V2X data collection under real world conditions.
 - Decoded received and transmitted V2X messages (secured and not secured GeoNetworking packets)
     - **Rx.json** – includes all received V2X messages by that specific host vehicle (CAM, DENM) also including RSU messages (CAM, DENM, MAPEM, SPaTEM, IVIM)
     - **Tx.json** – includes all transmitted V2X awareness messages by that specific host vehicle (CAM, DENM)
+
+
+ ![trip](./images/measurement_trip.png)
