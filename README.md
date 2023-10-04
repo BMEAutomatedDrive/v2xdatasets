@@ -20,7 +20,7 @@ V2X data collection under real world conditions.
         - [Department Of Telecommunications and Media Informatics](https://www.tmit.bme.hu/?language=en)
 - [Microsec Ltd. (PKI provider)](https://www.microsec.hu/en)
 
-**Communication hardware**: 4x [Cohda Wireless MK5 OBUs](https://www.cohdawireless.com/solutions/hardware/mk5-obu/) (2 vehicles with PKI-on, 2 vehicles with PKI-off)  
+**Communication hardware**: 4x [Cohda Wireless MK5 OBUs](https://www.cohdawireless.com/solutions/hardware/mk5-obu/) (2 vehicles with PKI-on, 2 vehicles with PKI-off) with default settings
 
 **V2X stack** : Cohda Wireless ETSI stack (Physical layer: ITS-G5)  
 
@@ -29,16 +29,21 @@ V2X data collection under real world conditions.
 **Weather and road conditions**: Clear and sunny weather, dry road
 
 **The datasets includes information on**:
-- ITS-G5 Physical layer parameters (e.g. signal strength, signal quality etc.).
-- GNSS-positioning information (**gnss.json**)
+
 - Decoded received and transmitted V2X messages (secured and not secured GeoNetworking packets)
     - **Rx.json** – includes all received V2X messages by that specific host vehicle (CAM, DENM) also including RSU messages (CAM, DENM, MAPEM, SPaTEM, IVIM)
     - **Tx.json** – includes all transmitted V2X awareness messages by that specific host vehicle (CAM, DENM)
+- **Protocol stack** (encapsulated in messages)
+    - PHY layer (ITS-G5 parameters): channel number (CCH/SCH), MCS, Rx power, Rx noise 
+    - MAC layer: Ethernet header
+    - Network layer: GeoNetworking header
+    - Transport layer: Basic Transport Protocol (BTP)
+    - Facilities layer: ETSI ITS (e.g. CAM, DENM etc.)
 
 **Measurement sections**: <br>
-- Section 1
-- Section 2
-- Section 3
+- Section 1 (Budapest -> M0)
+- Section 2 (M0 motorway ring)
+- Section 3 (M0 -> Budapest)
 
 Routes on Google Maps: 
 
