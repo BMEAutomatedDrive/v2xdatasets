@@ -6,6 +6,7 @@ V2X data collection under real world conditions.
 - V2X traffic analysis (for research and application development purposes) 
 - Comparison of PKI and PKI-authenticated 802.11p-based V2X communication (ITS-G5)
 
+**[Dataset is available on this external link](https://bmeedu-my.sharepoint.com/:f:/g/personal/petho_zsombor_kjk_bme_hu/Ep-OpKgY3-JNpTh-bUeGOooBp2PvvlDkB1Xzoi__4rYBzw?e=6KowXS)** - due to large measurement files, they are available on OneDrive storage 
 
 **Location**: Hungary, Budapest + M0 motorway (ringroad around Budapest)  
 
